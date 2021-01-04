@@ -1,0 +1,7 @@
+uncased_L-4_H-512_A-8/bert_model*
+uncased_L-8_H-512_A-8/bert_model*
+uncased_L-12_H-768_A-12/bert_model*
+wwm_uncased_L-24_H-1024_A-16/bert_model*
+tokenize_test.py
+.idea
+__pycache__
