@@ -70,14 +70,13 @@ macro avg     0.9134    0.9116    0.9125      5942
 
 BERT模型评估结果对比
 
-模型参数：MAX_SEQ_LEN=128, BATCH_SIZE=32, EPOCH=10，其中BERT-Large的BATCH_SIZE=4.
+模型参数：MAX_SEQ_LEN=128, BATCH_SIZE=32, EPOCH=10.
 
 |模型名称|P|R|F1|
 |---|---|---|---|
 |BERT-Small|0.8744|0.8859|0.8801|
 |BERT-Medium|0.9052|0.9031|0.9041|
 |BERT-Base|0.9129|0.9116|0.9123|
-|BERT-Large||||
 
 [最新SOTA结果的F1值为94.3%.](https://github.com/sebastianruder/NLP-progress/blob/master/english/named_entity_recognition.md)
 
