@@ -52,7 +52,7 @@ Non-trainable params: 0
 
 - Conll2003
 
-模型参数：uncased_L-12_H-768_A-12, MAX_SEQ_LEN=128, BATCH_SIZE=20, EPOCH=10
+模型参数：uncased_L-12_H-768_A-12, MAX_SEQ_LEN=128, BATCH_SIZE=32, EPOCH=10
 
 运行model_evaluate.py,模型评估结果如下：
 
@@ -69,6 +69,8 @@ macro avg     0.9134    0.9116    0.9125      5942
 ```
 
 BERT模型评估结果对比
+
+模型参数：MAX_SEQ_LEN=128, BATCH_SIZE=32, EPOCH=10，其中BERT-Large的BATCH_SIZE=4.
 
 |模型名称|P|R|F1|
 |---|---|---|---|
