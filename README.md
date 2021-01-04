@@ -8,7 +8,7 @@
 
 1. [Conll2003](https://www.clips.uantwerpen.be/conll2003/ner/)
 
-    english_ner.train 14987条数据和english_ner.test 3466条数据，共4种标签：
+    conll2003.train 14987条数据和conll2003.test 3466条数据，共4种标签：
     
     + [x] LOC
     + [x] PER
@@ -105,7 +105,7 @@ corporation     0.1935    0.1765    0.1846        34
 0. 将BERT英语预训练模型放在对应的文件夹下
 1. 运行load_data.py，生成类别标签文件label2id.json，注意O标签为0;
 2. 所需Python第三方模块参考requirements.txt文档
-3. 自己需要分类的数据按照data/english_ner.train和data/english_ner.test的格式准备好
+3. 自己需要分类的数据按照data/conll2003.train和data/conll2003.test的格式准备好
 4. 调整模型参数，运行model_train.py进行模型训练
 5. 运行model_evaluate.py进行模型评估
 6. 运行model_predict.py对新文本进行预测
